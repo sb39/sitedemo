@@ -1,0 +1,155 @@
+.nav-item a:hover{
+    border-radius:20px;
+    background:#222;
+    color:white;
+    transition-delay: .1s;
+    transition-duration: 1s;
+}
+main{
+    margin-top:60px;
+}
+
+#section-2{
+    background:#009688;
+    color:#fff;
+    padding:60px 50px 60px 50px ;
+    margin-left:";
+}
+#section-4{
+    background:#009688;
+    color:#fff;
+}
+#section-3{
+    padding:40px 40px 40px 40px;
+}
+
+
+
+#card-combo-1{
+    background:#2196F3;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+#card-combo-2{
+    background:#eee;
+   padding-top:20px;
+    padding-bottom:20px;
+    
+}
+#section-2-hr{
+    transform: rotate(90deg);
+    color:white;
+    background:#fff;
+    width: 100px;
+    
+}
+#section-3-card-body{
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+#card{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#section-5{
+    background:#eee;
+    padding:100px 100px 100px 100px;
+}
+#section-6{
+    padding:60px 60px 60px 60px ;
+}
+#section-7{
+    background: #eee;
+    padding:100px 100px 100px 100px;
+
+}
+#ul-footer-list-1{
+    list-style: none;
+    margin-left:-20px;
+}
+a:hover{
+    background:white;
+    text-decoration: none;
+    
+}
+#footer .container-fluid{
+    padding: 50px 50px 50px 50px;
+}
+.parallax-1{
+    /* The image used */
+    background-image: url('https://ak8.picdn.net/shutterstock/videos/14159588/thumb/1.jpg?i10c');
+    /*background:#EF5350;*/
+    /* Full height */
+    height:;
+    width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2{
+    /* The image used */
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2016/07/13e1xlbezny.jpg');
+    /*background:#EF5350;*/
+    /* Full height */
+    height:;
+    width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*video backhround total ------------------------------------------------*/
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+ iframe {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.vid-info { 
+    position: relative;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    padding:100px 200px 100px 200px ; 
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+/*video background ENDING HERE----------------------------------------*/
+@media only screen and (max-width: 768px) {
+   #section-2-hr {
+        transform: rotate(180deg);
+       transition-delay: .5s;
+       transition-timing-function:cubic-bezier(10)
+    }
+}
